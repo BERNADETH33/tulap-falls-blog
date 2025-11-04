@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hidden Beauty of Tulap Falls</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        'primary-green': '#10B981', // Emerald green
+                        'secondary-blue': '#3B82F6', // Blue for links/accents
+                        'bg-light': '#F9FAFB',
+                        'text-dark': '#1F2937',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Custom styling for table borders and links -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        
+        /* Ensure responsive table borders */
+        .travel-table th, .travel-table td {
+            border: 1px solid #E5E7EB;
+        }
+
+        /* Hover effect for Map Link */
+        .map-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="bg-bg-light text-text-dark font-sans antialiased">
+
+    <!-- Main Content Container -->
+    <div class="max-w-4xl mx-auto p-4 sm:p-6 lg:p-8">
+        
+        <!-- Header Section -->
+        <header class="text-center mb-10 mt-4">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-primary-green tracking-tight">
+                The Hidden Beauty of Tulap Falls
+            </h1>
+            <p class="text-xl text-gray-500 mt-2 italic">
+                Masipi East, Cabagan, Isabela
+            </p>
+        </header>
+
+        <!-- Main Feature Image (tulap_falls_one.jpg) -->
+        <div class="rounded-xl overflow-hidden shadow-2xl mb-10">
+            <img 
+                src="uploaded:tulap_falls_one.jpg-40e46cb5-f43c-4734-a602-5139d6769cae" 
+                alt="Reflective pool and rock formations at Tulap Falls" 
+                class="w-full h-auto object-cover max-h-96"
+                onerror="this.src='https://placehold.co/1200x384/4B5563/FFFFFF?text=Main+Image+Failed+to+Load'"
+            >
+            <p class="text-center text-sm text-gray-500 py-2 bg-gray-50">The clear, reflective main pool surrounded by large rock formations.</p>
+        </div>
+
+        <!-- Introduction -->
+        <section class="mb-10 p-6 bg-white rounded-xl shadow-lg">
+            <p class="text-lg leading-relaxed text-gray-700">
+                Hidden in the quiet barangay of Masipi East, Cabagan, <span class="bg-yellow-100 text-text-dark font-semibold px-1 rounded-sm">Tulap Falls</span> is a serene natural retreat known for its clear waters, refreshing atmosphere, and untouched beauty. It's one of Cabagan’s true hidden gems—perfect for travelers seeking peace and a genuine connection with nature.
+            </p>
+        </section>
+
+        <!-- The Tulap Experience (Bullet Points) -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-text-dark mb-5 border-l-4 border-primary-green pl-4">The Tulap Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1: Natural Beauty -->
+                <div class="p-5 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-xl font-semibold text-primary-green mb-2">Natural Beauty</p>
+                    <p class="text-gray-600">Experience a gentle waterfall cascading into a clear, cool pool, surrounded entirely by lush, vibrant greenery.</p>
+                </div>
+                <!-- Card 2: Scenic Journey -->
+                <div class="p-5 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-xl font-semibold text-primary-green mb-2">Scenic Journey</p>
+                    <p class="text-gray-600">The route passes through picturesque rice fields, groves of coconut trees, and rolling hills, giving you a beautiful preview of the calm beauty ahead.</p>
+                </div>
+                <!-- Card 3: Relax & Enjoy -->
+                <div class="p-5 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                    <p class="text-xl font-semibold text-primary-green mb-2">Relax & Enjoy</p>
+                    <p class="text-gray-600">The pool and the surrounding rocks are ideal for swimming, having a peaceful picnic, taking stunning photos, or simply relaxing and breathing the fresh air.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Visit -->
+        <section class="mb-10 p-6 bg-white rounded-xl shadow-lg">
+            <h2 class="text-3xl font-bold text-text-dark mb-4 border-l-4 border-primary-green pl-4">Why Visit</h2>
+            <p class="text-lg leading-relaxed text-gray-700">
+                Tulap Falls offers a quiet escape from the busy town life—it is simple, unspoiled, and full of natural charm. It’s a favorite weekend spot for families, students, and travelers who deeply appreciate peace, fresh air, and nature’s calm.
+            </p>
+        </section>
+
+        <!-- Image Gallery -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-text-dark mb-5 border-l-4 border-secondary-blue pl-4">Gallery: Untouched Beauty</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                
+                <!-- Image 2: cascading water -->
+                <div class="rounded-xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
+                    <img 
+                        src="uploaded:tulap_falls_three.jpg-07f3042e-e046-46fb-896f-53ab21d3bad2" 
+                        alt="Water rushing over smooth rock face" 
+                        class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                        onerror="this.src='https://placehold.co/800x400/3B82F6/ffffff?text=Image+Failed+to+Load'"
+                    >
+                    <p class="text-center text-sm text-gray-500 py-2 bg-white">Rushing water cascading over smooth, sculpted rock.</p>
+                </div>
+
+                <!-- Image 3: smaller pool -->
+                <div class="rounded-xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
+                    <img 
+                        src="uploaded:tulap_falls_two.jpg-108de18f-0cc8-4e96-81a2-3f46c1858de0" 
+                        alt="Smaller pool and upper falls section" 
+                        class="w-full h-64 object-cover transform group-hover:scale-105 transition duration-500"
+                        onerror="this.src='https://placehold.co/800x400/3B82F6/ffffff?text=Image+Failed+to+Load'"
+                    >
+                    <p class="text-center text-sm text-gray-500 py-2 bg-white">A view of the upper tiers and a secluded smaller pool.</p>
+                </div>
+
+                <!-- Image 4: wide view of rock landscape -->
+                <div class="sm:col-span-2 rounded-xl overflow-hidden shadow-lg group hover:shadow-xl transition duration-300">
+                    <img 
+                        src="uploaded:tulap_falls_four.jpg-a196e6df-7dcb-4552-ae62-584db68f69dd" 
+                        alt="Wide aerial-like view of the polished rock landscape" 
+                        class="w-full h-72 object-cover transform group-hover:scale-105 transition duration-500"
+                        onerror="this.src='https://placehold.co/800x400/3B82F6/ffffff?text=Image+Failed+to+Load'"
+                    >
+                    <p class="text-center text-sm text-gray-500 py-2 bg-white">The unique, wide expanse of polished rock surrounding the water flow.</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Travel Information Table -->
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold text-text-dark mb-5 border-l-4 border-primary-green pl-4">Travel Information</h2>
+            
+            <div class="overflow-x-auto bg-white rounded-xl shadow-lg">
+                <table class="min-w-full divide-y divide-gray-200 travel-table">
+                    <tbody class="divide-y divide-gray-200">
+                        <!-- Location -->
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-text-dark w-1/3">
+                                Location
+                            </td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-600 w-2/3">
+                                Barangay Masipi East, Cabagan, Isabela
+                            </td>
+                        </tr>
+                        <!-- Map Link -->
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-text-dark">
+                                Map Link
+                            </td>
+                            <td class="px-6 py-4 whitespace-normal text-sm">
+                                <a href="https://maps.app.goo.gl/EWpBtoN6kAbCq8WN7" target="_blank" class="text-secondary-blue font-medium map-link">
+                                    View on Google Maps
+                                </a>
+                            </td>
+                        </tr>
+                        <!-- Best Time to Visit -->
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-text-dark">
+                                Best Time to Visit
+                            </td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-600">
+                                Early morning or on weekends during the <span class="bg-yellow-100 text-text-dark font-semibold px-1 rounded-sm">dry season</span> for the most pleasant and safest experience.
+                            </td>
+                        </tr>
+                        <!-- How to Get There -->
+                        <tr>
+                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-text-dark">
+                                How to Get There
+                            </td>
+                            <td class="px-6 py-4 whitespace-normal text-sm text-gray-600">
+                                Accessible by local transport; be prepared for short treks to reach the immediate falls area.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Essence / Footer -->
+        <footer class="text-center pt-8 pb-4 border-t border-gray-300">
+            <h3 class="text-2xl font-semibold text-text-dark mb-2">Essence of Cabagan’s Countryside</h3>
+            <p class="text-base italic text-gray-600 max-w-2xl mx-auto">
+                Tulap Falls is a hidden paradise that perfectly captures the quiet, unspoiled beauty of Cabagan’s countryside. With its clear waters, green surroundings, and peaceful ambiance, it serves as a powerful reminder to every visitor that the best destinations are often the most natural and untouched.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
